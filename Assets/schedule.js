@@ -192,6 +192,7 @@ const scheduleData = {
             { time: "09:15-10:45", code: "ME" },
             { time: "11:00-12:30", code: "OB" },
             { time: "13:30-15:00", code: "MM" },
+            { time: "15:15-16:45", code: "OB" },
         ]
     },
     "2026-08-06": {
@@ -214,6 +215,7 @@ const scheduleData = {
     "2026-08-08": {
         day: "Saturday",
         slots: [
+            { time: "09:15-10:45", code: "OB" },
         ]
     },
     "2026-08-09": {
