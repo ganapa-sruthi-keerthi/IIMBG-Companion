@@ -620,7 +620,7 @@ const scheduleData = {
 
 // Exam & Event Information
 const examInfo = {
-    "mid_term": {
+    mid_term: {
         "dates": ["2026-08-17", "2026-08-18", "2026-08-19", "2026-08-20", "2026-08-21"],
         "schedule": {
             "2026-08-17": [
@@ -644,7 +644,7 @@ const examInfo = {
             ],
         }
     },
-    "end_term": {
+    end_term: {
         "dates": ["2026-09-24", "2026-09-25", "2026-09-26", "2026-09-27", "2026-09-28", "2026-09-29"],
         "schedule": null  // TBD - will be updated when announced
     },
