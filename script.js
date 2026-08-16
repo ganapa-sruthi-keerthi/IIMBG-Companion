@@ -334,11 +334,12 @@ function showFoodMenu(dayName) {
 
 // ===== EXAMS TAB =====
 function renderExams() {
+    // Mid Term
     const midTermEl = document.getElementById('midTermDates');
     const midTermCountdown = document.getElementById('midTermCountdown');
     if (examInfo.mid_term.dates.length > 0) {
         const start = examInfo.mid_term.dates[0];
-        const end = examInfo.mid_term.dates[examInfo.mid_term..dates.length - 1];
+        const end = examInfo.mid_term.dates[examInfo.mid_term.dates.length - 1];
         const startDate = new Date(start);
         const endDate = new Date(end);
 
@@ -358,6 +359,7 @@ function renderExams() {
         midTermCountdown.textContent = '';
     }
 
+    // End Term
     const endTermEl = document.getElementById('endTermDates');
     const endTermCountdown = document.getElementById('endTermCountdown');
     if (examInfo.end_term.dates.length > 0) {
@@ -382,6 +384,7 @@ function renderExams() {
         endTermCountdown.textContent = '';
     }
 
+    // Quiz
     const quizEl = document.getElementById('quizDates');
     if (examInfo.quiz.length > 0) {
         const quizDates = examInfo.quiz.map(d => {
@@ -393,6 +396,7 @@ function renderExams() {
         quizEl.textContent = 'Dates not announced';
     }
 
+    // Holidays
     const holidayEl = document.getElementById('holidayList');
     if (examInfo.holidays.length > 0) {
         holidayEl.innerHTML = examInfo.holidays.map(h => `
@@ -405,6 +409,7 @@ function renderExams() {
         holidayEl.innerHTML = '<p style="color:#888; font-size:14px;">No holidays scheduled</p>';
     }
 
+    // Special Events
     const specialEl = document.getElementById('specialList');
     if (examInfo.special.length > 0) {
         specialEl.innerHTML = examInfo.special.map(s => `
