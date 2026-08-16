@@ -336,9 +336,9 @@ function showFoodMenu(dayName) {
 function renderExams() {
     const midTermEl = document.getElementById('midTermDates');
     const midTermCountdown = document.getElementById('midTermCountdown');
-    if (examInfo.mid_term.length > 0) {
-        const start = examInfo.mid_term[0];
-        const end = examInfo.mid_term[examInfo.mid_term.length - 1];
+    if (examInfo.mid_term.dates.length > 0) {
+        const start = examInfo.mid_term.dates[0];
+        const end = examInfo.mid_term.dates[examInfo.mid_term..dates.length - 1];
         const startDate = new Date(start);
         const endDate = new Date(end);
 
@@ -360,9 +360,9 @@ function renderExams() {
 
     const endTermEl = document.getElementById('endTermDates');
     const endTermCountdown = document.getElementById('endTermCountdown');
-    if (examInfo.end_term.length > 0) {
-        const start = examInfo.end_term[0];
-        const end = examInfo.end_term[examInfo.end_term.length - 1];
+    if (examInfo.end_term.dates.length > 0) {
+        const start = examInfo.end_term.dates[0];
+        const end = examInfo.end_term.dates[examInfo.end_term.dates.length - 1];
         const startDate = new Date(start);
         const endDate = new Date(end);
 
