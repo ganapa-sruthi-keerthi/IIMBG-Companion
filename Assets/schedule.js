@@ -9,6 +9,7 @@ const courseCatalog = {
     EVENTCONV: { name: "CONVERGENCE", professor: "" },
     HOLIND: { name: "INDEPENDENCE DAY", professor: "" },
     HOLMILAD: { name: "ID-E-MILAD", professor: "" },
+    HDS: { "name": "Healthcare Delivery Systems & Public Health Administration", "professor": "" },
     MA: { name: "Management Accounting", professor: "Prof. Archana Patro" },
     ME: { name: "Managerial Economics", professor: "Prof. Adviti Devaguptapu" },
     MEMS: { name: "Medical Ethics & Medicolegal Systems", professor: "Prof. Soumya Prakash Patra" },
@@ -290,51 +291,35 @@ const scheduleData = {
     "2026-08-17": {
         day: "Monday",
         slots: [
-            { time: "09:15-10:45", code: "MIDTERM" },
-            { time: "13:30-15:00", code: "MIDTERM" },
-            { time: "15:15-16:45", code: "MIDTERM" },
-            { time: "11:00-12:30", code: "MIDTERM" },
-            { time: "17:00-18:30", code: "MIDTERM" },
+            { "time": "6:15 PM", "code": "ME" },
         ]
     },
     "2026-08-18": {
         day: "Tuesday",
         slots: [
-            { time: "09:15-10:45", code: "MIDTERM" },
-            { time: "11:00-12:30", code: "MIDTERM" },
-            { time: "13:30-15:00", code: "MIDTERM" },
-            { time: "15:15-16:45", code: "MIDTERM" },
-            { time: "17:00-18:30", code: "MIDTERM" },
+            { "time": "10:30 AM", "code": "MEMS" },
+            { "time": "6:15 PM", "code": "HDS" },
         ]
     },
     "2026-08-19": {
         day: "Wednesday",
         slots: [
-            { time: "09:15-10:45", code: "MIDTERM" },
-            { time: "11:00-12:30", code: "MIDTERM" },
-            { time: "13:30-15:00", code: "MIDTERM" },
-            { time: "15:15-16:45", code: "MIDTERM" },
-            { time: "17:00-18:30", code: "MIDTERM" },
+            { "time": "1:15 PM", "code": "MA" },
+            { "time": "7:00 PM", "code": "BC" },
         ]
     },
     "2026-08-20": {
         day: "Thursday",
         slots: [
-            { time: "09:15-10:45", code: "MIDTERM" },
-            { time: "11:00-12:30", code: "MIDTERM" },
-            { time: "13:30-15:00", code: "MIDTERM" },
-            { time: "15:15-16:45", code: "MIDTERM" },
-            { time: "17:00-18:30", code: "MIDTERM" },
+            { "time": "11:45 AM", "code": "MM" },
+            { "time": "6:15 PM", "code": "OB" },
         ]
     },
     "2026-08-21": {
         day: "Friday",
         slots: [
-            { time: "09:15-10:45", code: "MIDTERM" },
-            { time: "11:00-12:30", code: "MIDTERM" },
-            { time: "13:30-15:00", code: "MIDTERM" },
-            { time: "15:15-16:45", code: "MIDTERM" },
-            { time: "17:00-18:30", code: "MIDTERM" },
+            { "time": "10:30 AM", "code": "BS" },
+            { "time": "6:15 PM", "code": "SM" },
         ]
     },
     "2026-08-22": {
@@ -635,8 +620,34 @@ const scheduleData = {
 
 // Exam & Event Information
 const examInfo = {
-    mid_term: ['2026-08-17', '2026-08-18', '2026-08-19', '2026-08-20', '2026-08-21'],
-    end_term: ['2026-09-24', '2026-09-25', '2026-09-26', '2026-09-27', '2026-09-28', '2026-09-29'],
+    "mid_term": {
+        "dates": ["2026-08-17", "2026-08-18", "2026-08-19", "2026-08-20", "2026-08-21"],
+        "schedule": {
+            "2026-08-17": [
+                { "time": "6:15 PM", "code": "ME" },
+            ],
+            "2026-08-18": [
+                { "time": "10:30 AM", "code": "MEMS" },
+                { "time": "6:15 PM", "code": "HDS" },
+            ],
+            "2026-08-19": [
+                { "time": "1:15 PM", "code": "MA" },
+                { "time": "7:00 PM", "code": "BC" },
+            ],
+            "2026-08-20": [
+                { "time": "11:45 AM", "code": "MM" },
+                { "time": "6:15 PM", "code": "OB" },
+            ],
+            "2026-08-21": [
+                { "time": "10:30 AM", "code": "BS" },
+                { "time": "6:15 PM", "code": "SM" },
+            ],
+        }
+    },
+    "end_term": {
+        "dates": ["2026-09-24", "2026-09-25", "2026-09-26", "2026-09-27", "2026-09-28", "2026-09-29"],
+        "schedule": null  // TBD - will be updated when announced
+    },
     quiz: ['2026-08-10', '2026-08-11', '2026-08-12', '2026-08-13', '2026-08-14', '2026-09-21', '2026-09-22', '2026-09-23'],
     holidays: [
         { date: "2026-08-15", name: "INDEPENDENCE DAY" },
