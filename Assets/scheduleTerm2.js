@@ -121,41 +121,25 @@ const scheduleData = {
     "2026-10-17": {
         day: "Saturday",
         slots: [
-            { time: "09:00-10:30", code: "HOLDUSSEHRA" },
-            { time: "10:45-12:15", code: "HOLDUSSEHRA" },
-            { time: "13:15-14:45", code: "HOLDUSSEHRA" },
-            { time: "15:00-16:30", code: "HOLDUSSEHRA" },
-            { time: "16:45-18:15", code: "HOLDUSSEHRA" },
+            { time: "09:00-18:15", code: "HOLDUSSEHRA" },
         ]
     },
     "2026-10-18": {
         day: "Sunday",
         slots: [
-            { time: "09:00-10:30", code: "HOLDUSSEHRA" },
-            { time: "10:45-12:15", code: "HOLDUSSEHRA" },
-            { time: "13:15-14:45", code: "HOLDUSSEHRA" },
-            { time: "15:00-16:30", code: "HOLDUSSEHRA" },
-            { time: "16:45-18:15", code: "HOLDUSSEHRA" },
+            { time: "09:00-18:15", code: "HOLDUSSEHRA" },
         ]
     },
     "2026-10-19": {
         day: "Monday",
         slots: [
-            { time: "09:00-10:30", code: "HOLDUSSEHRA" },
-            { time: "10:45-12:15", code: "HOLDUSSEHRA" },
-            { time: "13:15-14:45", code: "HOLDUSSEHRA" },
-            { time: "15:00-16:30", code: "HOLDUSSEHRA" },
-            { time: "16:45-18:15", code: "HOLDUSSEHRA" },
+            { time: "09:00-18:15", code: "HOLDUSSEHRA" },
         ]
     },
     "2026-10-20": {
         day: "Tuesday",
         slots: [
-            { time: "09:00-10:30", code: "HOLDUSSEHRA" },
-            { time: "10:45-12:15", code: "HOLDUSSEHRA" },
-            { time: "13:15-14:45", code: "HOLDUSSEHRA" },
-            { time: "15:00-16:30", code: "HOLDUSSEHRA" },
-            { time: "16:45-18:15", code: "HOLDUSSEHRA" },
+            { time: "09:00-18:15", code: "HOLDUSSEHRA" },
         ]
     },
     "2026-10-21": {
@@ -372,11 +356,6 @@ const scheduleData = {
     "2026-11-16": {
         day: "Monday",
         slots: [
-            { time: "09:00-10:30", code: "HOLCHHATH" },
-            { time: "10:45-12:15", code: "HOLCHHATH" },
-            { time: "13:15-14:45", code: "HOLCHHATH" },
-            { time: "15:00-16:30", code: "HOLCHHATH" },
-            { time: "16:45-18:15", code: "HOLCHHATH" },
         ]
     },
     "2026-11-17": {
@@ -431,11 +410,7 @@ const scheduleData = {
     "2026-11-24": {
         day: "Tuesday",
         slots: [
-            { time: "09:00-10:30", code: "HOLGURUNANAK" },
-            { time: "10:45-12:15", code: "HOLGURUNANAK" },
-            { time: "13:15-14:45", code: "HOLGURUNANAK" },
-            { time: "15:00-16:30", code: "HOLGURUNANAK" },
-            { time: "16:45-18:15", code: "HOLGURUNANAK" },
+            { time: "09:00-18:15", code: "HOLGURUNANAK" },
         ]
     },
     "2026-11-25": {
@@ -464,11 +439,7 @@ const scheduleData = {
     "2026-11-28": {
         day: "Saturday",
         slots: [
-            { time: "09:00-10:30", code: "EVENTNETRITVA" },
-            { time: "10:45-12:15", code: "EVENTNETRITVA" },
-            { time: "13:15-14:45", code: "EVENTNETRITVA" },
-            { time: "15:00-16:30", code: "EVENTNETRITVA" },
-            { time: "16:45-18:15", code: "EVENTNETRITVA" },
+            { time: "09:00-18:15", code: "EVENTNETRITVA" },
         ]
     },
     "2026-11-29": {
@@ -509,11 +480,7 @@ const scheduleData = {
     "2026-12-04": {
         day: "Friday",
         slots: [
-            { time: "09:00-10:30", code: "EVENTTEDX" },
-            { time: "10:45-12:15", code: "EVENTTEDX" },
-            { time: "13:15-14:45", code: "EVENTTEDX" },
-            { time: "15:00-16:30", code: "EVENTTEDX" },
-            { time: "16:45-18:15", code: "EVENTTEDX" },
+            { time: "09:00-18:15", code: "EVENTTEDX" },
         ]
     },
     "2026-12-05": {
